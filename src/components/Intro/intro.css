@@ -8,10 +8,9 @@
 }
 .bg{
     position: absolute;
-    top: -4rem;
+    top: -2rem;
     right: 0;
     z-index: -1;
-    
     object-fit: fit;
     height: 100vh;
 }
@@ -36,7 +35,8 @@
 }
 .introPara{
     font-size: medium;
-    font-weight: 100;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 .btn{
@@ -53,5 +53,24 @@
     height: 1rem;
 }
 
+@media screen and (max-width: 768px){
+    .bg{
+        right: -10vw;
 
+    }
+    .introContent{
+        font-size: 10vw;
 
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .bg{
+        right: -20vw;
+
+    }
+    
+}
