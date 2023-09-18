@@ -1,6 +1,7 @@
 import Navbar from "./components/navbar/navbar";
-import Intro from './components/Intro/Intro'
-import Skills from "./components/Skills/skills";
+import Intro from './components/Intro/Intro.js'
+import Skills from "./components/Skills/skills.js";
+import Works from "./components/Works/works.js";
 
 function App() {
   
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
         <Navbar/>
         <Intro/>
-        <Skill />
+        <Skills />
+        <Works />
     </div>
   );
 }
